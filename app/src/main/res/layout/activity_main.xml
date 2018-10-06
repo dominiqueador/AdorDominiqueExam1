@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="104dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="43dp"
+        android:contentDescription="@string/todo"
+        tools:srcCompat="@drawable/me" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_toStartOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="@string/name"
+        android:textSize="24sp"
+        app:fontFamily="monospace"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toStartOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="@string/sec"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/first"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="193dp"
+        android:background="@color/firstbox" />
+
+    <View
+        android:id="@+id/second"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="317dp"
+        android:background="@color/secondbox" />
+
+    <View
+        android:id="@+id/third"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="442dp"
+        android:background="@color/thirdbox" />
+
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="275dp"
+        android:text="@string/m1" />
+
+    <TextView
+        android:id="@+id/app5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginBottom="276dp"
+        android:text="@string/m2" />
+
+    <TextView
+        android:id="@+id/app6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginBottom="276dp"
+        android:text="@string/m3" />
+
+    <TextView
+        android:id="@+id/app7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginBottom="278dp"
+        android:text="@string/m4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_above="@+id/app"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/money"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/app"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="211dp"
+        app:srcCompat="@drawable/fav"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignStart="@+id/app7"
+        android:layout_alignTop="@+id/imageView5"
+        app:srcCompat="@drawable/star"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-81dp"
+        android:layout_marginBottom="169dp"
+        android:text="@string/button1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        app:srcCompat="@drawable/alarm"
+        android:contentDescription="@string/todo11" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/app"
+        android:layout_alignTop="@+id/imageView8"
+        app:srcCompat="@drawable/option"
+        android:contentDescription="@string/todo10" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignEnd="@+id/text3"
+        app:srcCompat="@drawable/info"
+        android:contentDescription="@string/todo12" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="525dp"
+        android:text="@string/t1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="525dp"
+        android:text="@string/t2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginTop="524dp"
+        android:text="@string/t3" />
+
+</RelativeLayout>

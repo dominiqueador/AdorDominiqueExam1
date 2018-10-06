@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AdorDominiqueExam1</string>
+
+    <string name="name">Dominique Ador</string>
+    <string name="sec">4TH YEAR - INFORMATION TECHNOLOGY</string>
+    <string name="m1">MONEY</string>
+    <string name="m2">APP</string>
+    <string name="m3">FAV</string>
+    <string name="m4">SELECT</string>
+    <string name="button1">CONNECT NOW</string>
+    <string name="t1">OPTIONS</string>
+    <string name="t2">ALARMS</string>
+    <string name="t3">INFO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo12">TODO</string>
+
+</resources>
